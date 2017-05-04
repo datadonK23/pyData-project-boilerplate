@@ -16,7 +16,7 @@ Rename environment name in yml, run `conda env create -f environment.yml` and `s
 * `environment.yml`
 * `project/` _#TODO rename_
     * `__init__.py`
-    * `main.py` _(entry point)_ 
+    * `main.py` _(entry point)_
     * `model.py`
     * `test/` _(test directory)_
         * `__init__.py`
@@ -28,13 +28,8 @@ Rename environment name in yml, run `conda env create -f environment.yml` and `s
             * `__init__.py`
     * `data/` _(data directory)_
         * `REFS.md`
-* `docs/` _(documentation, based on sphinx)_
-    * `_build`
-    * `_static`
-    * `_templates`
-    * `conf.py`
-    * `index.rst`
-    * `Makefile`
+* `docs/` _(documentation & research content)_
+    * `research_docs`
 * `LICENSE`
 
 # License
