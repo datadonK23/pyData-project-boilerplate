@@ -20,7 +20,7 @@ Project will terminate, if... \#TODO
 
 
 ## Target Group
-* \#TODO 
+* \#TODO
 
 
 ## Research
@@ -40,11 +40,18 @@ Project will terminate, if... \#TODO
 ## Technologies
 * Processing => PyData Stack based on Anaconda. Libraries:
     * `environment.yml`
-* \#TODO
+* Modeling => scikit-learn \#FIXME
+* IO => \#FIXME
 
 
 ## Test Strategy
-\#TODO
+Model Testing:
+
+* \#FIXME
+
+App Testing:
+
+* \#FIXME
 
 
 ## Timetable
@@ -52,4 +59,6 @@ Project will terminate, if... \#TODO
 * \#TODO \#TODO
 * Expected finish => \#TODO
 * Actual finish => \#TODO
-* 
+
+## Limitations / Further Improvements
+* \#TODO

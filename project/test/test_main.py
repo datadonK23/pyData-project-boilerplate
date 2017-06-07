@@ -1,5 +1,9 @@
 import unittest
-from project import main #FIXME
+from unittest.mock import patch
+
+import sys
+
+from project.main import #FIXME
 
 class MainTests(unittest.TestCase):
     #FIXME

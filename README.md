@@ -9,6 +9,9 @@ More informations in project briefing: `BRIEFING.md`
 # Conda Environment
 Rename environment name in yml, run `conda env create -f environment.yml` and `source activate $ENVNAME`
 
+# App Entry Point
+Start app with `python event_dec/main.py` (or `cd` into `event_dec/`-directory and run `python main.py`)
+
 # Project Structure
 * `README.md`
 * `BRIEFING.md` _(project briefing)_
@@ -23,13 +26,19 @@ Rename environment name in yml, run `conda env create -f environment.yml` and `s
         * `test_main.py`
         * `test_model.py`
     * `notebook/` _(notebooks for exploration & model development)_
-        * `1_exploration.ipynb`
+        * `0_Cleaning.ipynb`
+        * `1_Exploration.ipynb`
+        * `2_Modeling.ipynb`
         * `helpers/`
             * `__init__.py`
+        * `plots/`
+            * `...` 
     * `data/` _(data directory)_
         * `REFS.md`
+        * * `...`
 * `docs/` _(documentation & research content)_
     * `research_docs`
+    * * `...`
 * `LICENSE`
 
 # License

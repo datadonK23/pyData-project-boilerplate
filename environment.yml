@@ -62,6 +62,7 @@ dependencies:
 - conda-forge::pandas=0.19.2=np112py36_1
 - conda-forge::pandoc=1.19.2=0
 - conda-forge::pandocfilters=1.4.1=py36_0
+- conda-forge::patsy=0.4.1=py36_0
 - conda-forge::pcre=8.39=0
 - conda-forge::pexpect=4.2.1=py36_0
 - conda-forge::pickleshare=0.7.3=py36_0
@@ -82,6 +83,7 @@ dependencies:
 - conda-forge::requests=2.13.0=py36_0
 - conda-forge::scikit-learn=0.18.1=np112py36_blas_openblas_200
 - conda-forge::scipy=0.19.0=np112py36_blas_openblas_200
+- conda-forge::seaborn=0.7.1=py36_0
 - conda-forge::setuptools=33.1.1=py36_0
 - conda-forge::simplegeneric=0.8.1=py36_0
 - conda-forge::sip=4.18=py36_1
@@ -90,10 +92,11 @@ dependencies:
 - conda-forge::sphinx=1.5.5=py36_0
 - conda-forge::sqlalchemy=1.1.5=py36_0
 - conda-forge::sqlite=3.13.0=1
+- conda-forge::statsmodels=0.8.0=np112py36_0
 - conda-forge::terminado=0.6=py36_0
 - conda-forge::testpath=0.3=py36_0
 - conda-forge::tk=8.5.19=1
-- conda-forge::tornado=4.5.1=py36_0
+- conda-forge::tornado=4.4.2=py36_0
 - conda-forge::traitlets=4.3.2=py36_0
 - conda-forge::wcwidth=0.1.7=py36_0
 - conda-forge::webencodings=0.5=py36_0
