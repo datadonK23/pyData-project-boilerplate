@@ -1,5 +1,5 @@
 #!/usr/bin/python
-""" test_model
+""" test_preprocessing
 
 Author: datadonk23
 Date: FIXME
@@ -8,10 +8,10 @@ Date: FIXME
 import unittest, os, sys
 from unittest.mock import patch
 
-#from project.model import FIXME
+#from project.preprocessing import FIXME
 
 
-class ModelTests(unittest.TestCase):
+class PreprocessingTests(unittest.TestCase):
     def test_something(self):
         self.assertEqual(True, False)
 

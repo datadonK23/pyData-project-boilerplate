@@ -1,13 +1,24 @@
 #!/usr/bin/python
-#TODO
+""" main
 
+#FIXME Description
+
+Author: datadonk23
+Date: #FIXME
+"""
+
+import numpy as np
+import pandas as pd
+
+#from preprocessing import FIXME
 from model import Model
 
 
 def main():
-    """
-    Main Loop
-    :return: -
+    """ Main loop
+
+    FIXME
+
     """
     #TODO
     pass

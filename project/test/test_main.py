@@ -1,15 +1,20 @@
-import unittest
+#!/usr/bin/python
+""" test_main
+
+Author: datadonk23
+Date: FIXME
+"""
+
+import unittest, os, sys
 from unittest.mock import patch
 
-import sys
+#from project.main import FIXME
 
-from project.main import #FIXME
 
 class MainTests(unittest.TestCase):
-    #FIXME
+    def test_something(self):
+        self.assertEqual(True, False)
 
-def main():
+
+if __name__ == '__main__':
     unittest.main()
-
-if __name__ == "__main__":
-    main()
