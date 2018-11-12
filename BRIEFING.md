@@ -7,7 +7,7 @@ $PROJECTDESCRIPTION in one sentence
 \#TODO $DESCRIPTION
 
 
-## Project Goal
+## Project Goals
 \#TODO
 
 
@@ -16,7 +16,9 @@ $PROJECTDESCRIPTION in one sentence
 
 
 ## Termination Strategy
-Project will terminate, if... \#TODO
+Project will terminate, if...
+
+* \#TODO
 
 
 ## Target Group
@@ -59,6 +61,11 @@ App Testing:
 * \#TODO \#TODO
 * Expected finish => \#TODO
 * Actual finish => \#TODO
+
+
+## Results
+See `RESULTS.md`.
+
 
 ## Limitations / Further Improvements
 * \#TODO

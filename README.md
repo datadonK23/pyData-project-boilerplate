@@ -26,15 +26,16 @@ OR Change directory to `$PROJNAME/notebook`, run `jupyter notebook` and select a
 ├── environment.yml # conda environment
 ├── LICENSE
 ├── project #TODO rename $PROJNAME
-│   ├── data
+│   ├── data # data files
 │   │   ├── __init__.py
 │   │   └── REFS.md
 │   ├── __init__.py
 │   ├── main.py # entry point
 │   ├── model.py
-│   ├── models # persist models
-│   │   └── __init__.py
-│   ├── notebook
+│   ├── models # persisted models
+│   │   ├── __init__.py
+│   │   └── trained_model.pkl
+│   ├── notebook # jupyter NBs
 │   │   ├── 0_Cleaning.ipynb
 │   │   ├── 1_Exploration.ipynb
 │   │   ├── 2_Modeling.ipynb
@@ -42,10 +43,12 @@ OR Change directory to `$PROJNAME/notebook`, run `jupyter notebook` and select a
 │   │   │   └── __init__.py
 │   │   └── plots
 │   │       └── __init__.py
-│   └── test
+│   ├── preprocessing.py
+│   └── test # test files
 │       ├── __init__.py
 │       ├── test_main.py
-│       └── test_model.py
+│       ├── test_model.py
+│       └── test_preprocessing.py
 ├── README.md
 ├── RESULTS.md # project results
 └── TODO.md
